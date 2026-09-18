@@ -1,3 +1,4 @@
+print("DEBUG BOT_TOKEN len:", len(__import__("os").getenv("BOT_TOKEN") or ""))
 import asyncio
 import logging
 
