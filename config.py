@@ -1,6 +1,7 @@
+import os
 # -*- coding: utf-8 -*-
 
-BOT_TOKEN = ""
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 ADMIN_ID = 6637536360
 ADMIN_USERNAME = "onlyworks_11"
 
